@@ -1,0 +1,27 @@
+PUT http://localhost:3000/users/11
+Content-Type: application/json
+
+# body/data/content. This it where is goes after the headers and blank space
+
+{ 
+  "name": "Kendrick Lamar",
+  "username": "KDOT",
+  "email": "klamar@interscope.com",
+  "address": {
+    "street": "Skiles Walks",
+    "suite": "Suite 351",
+    "city": "Roscoeview",
+    "zipcode": "33263",
+    "geo": {
+      "lat": "-31.8129",
+      "lng": "62.5342"
+    }
+  },
+  "phone": "(254)954-1289",
+  "website": "kdot.com",
+  "company": {
+    "name": "Keebler LLC",
+    "catchPhrase": "User-centric fault-tolerant solution",
+    "bs": "revolutionize end-to-end systems"
+  }
+}
