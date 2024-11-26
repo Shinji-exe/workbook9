@@ -4,9 +4,9 @@ Content-Type: application/json
 # body/data/content. This it where is goes after the headers and blank space
 
 { 
-  "name": "Kendrick Lamar",
-  "username": "Kdot",
-  "email": "klamar@interscope.com",
+  "name": "Jack Ryan",
+  "username": "JRyan",
+  "email": "JRyanR6@NSA.com",
   "address": {
     "street": "Skiles Walks",
     "suite": "Suite 351",
@@ -20,7 +20,7 @@ Content-Type: application/json
   "phone": "(254)954-1289",
   "website": "kendricklamar.info",
   "company": {
-    "name": "Keebler LLC",
+    "name": "NSA",
     "catchPhrase": "User-centric fault-tolerant solution",
     "bs": "revolutionize end-to-end systems"
   }

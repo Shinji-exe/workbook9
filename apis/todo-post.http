@@ -1,0 +1,8 @@
+POST http://localhost:3000/todos
+Content-Type: application/json
+
+{
+  "userId": 1,
+  "title": "Walking the dog for 5 min",
+  "completed": false
+}
